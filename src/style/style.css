@@ -10,13 +10,13 @@ body{
     height: 100vh;
 }
 .card{
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--advice-card-color);
     border-radius: 10px;
-    margin: 20px;
-    width: 345px;
+    margin: 40px;
 }
 .card .conselho-numero{
     color: var(--advice-dice-color);
@@ -27,7 +27,7 @@ body{
 }
 .card .conselho{
     font-size: 23px;
-    padding: 23px;
+    padding: 25px;
     text-align: center;
     color: var(--text-color);
 }
@@ -41,9 +41,12 @@ body{
     border: none;
     background-color: var(--advice-dice-color);
     transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .rodape-icone:hover{
-  color: #53FFAB;
-  cursor: pointer;
+    color: #53FFAB;
+    cursor: pointer;
     box-shadow: 0 5px 15px var(--advice-dice-color);
 }
